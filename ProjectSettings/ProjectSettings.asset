@@ -869,8 +869,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: CluckRun_Course
-  metroPackageVersion: 
+  metroPackageName: CluckRunCourse
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -878,7 +878,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: CluckRun_Course
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: CluckRun_Course
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
