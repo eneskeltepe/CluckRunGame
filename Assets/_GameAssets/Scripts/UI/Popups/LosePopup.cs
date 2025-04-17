@@ -16,10 +16,10 @@ public class LosePopup : MonoBehaviour
     {
         _timerText.text = _timerUI.GetFinalTime();
 
-        _tryAgainButton.onClick.AddListener(OnOneMoreButtonClicked);    
+        _tryAgainButton.onClick.AddListener(OnTryAgainButtonClicked);    
     }
 
-    private void OnOneMoreButtonClicked()
+    private void OnTryAgainButtonClicked()
     {
         // Tüm DOTween animasyonlarını temizle (Cursor yaptı)
         DOTween.KillAll();

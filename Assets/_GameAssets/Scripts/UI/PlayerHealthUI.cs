@@ -25,7 +25,7 @@ public class PlayerHealthUI : MonoBehaviour
         }
     }
 
-    private void AnimateDamage()
+    public void AnimateDamage()
     {
         for (int i = 0; i < _playerHealthImages.Length; i++)
         {
