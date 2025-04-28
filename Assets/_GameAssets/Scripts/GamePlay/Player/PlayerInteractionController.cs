@@ -33,7 +33,7 @@ public class PlayerInteractionController : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        if(other.TryGetComponent<IDamageable>(out var damageable))
+        if (other.TryGetComponent<IDamageable>(out var damageable))
         {
             damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
         }
